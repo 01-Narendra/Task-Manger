@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📌 Personal Task Management System
 
-## Getting Started
+## 🚀 Overview
+The **Personal Task Management System** is a full-stack web application that helps users organize their daily tasks and projects. Built using **Next.js 15, PostgreSQL, Drizzle ORM, Zustand, and TanStack Query**, it offers a seamless experience for task tracking, prioritization, and project management.
 
-First, run the development server:
+## ✨ Features
+### 🔹 Landing Page
+- Beautiful and user-friendly UI/UX.
+- Sections: **Header, Hero, Features, CTA, and Footer**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🔹 Authentication System
+- Secure **User Registration & Login**.
+- **Protected Routes** for authorized access.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔹 Task Management
+- **CRUD Operations** (Create, Read, Update, Delete) for tasks.
+- Assign **priority levels & due dates**.
+- Update the task priority and status
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔹 Dashboard
+- **Task statistics & progress tracking**.
+- Upcoming **deadlines & reminders**.
+- **calendar view** of scheduled task.
+- **Graph** for completed task
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+- **Frontend**: Next.js 15, TypeScript, Tailwind CSS
+- **State Management**: Zustand, TanStack Query
+- **Backend**: Next.js API Routes, Drizzle ORM, PostgreSQL
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📦 Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Install dependencies**
+   ```sh
+   npm install  
+   ```
+2. **Setup environment variables** (`.env`)
+   ```env
+   POSTGRES_URL=your_postgres_connection_string
+   NEXTAUTH_SECRET=your_secret_key
+   ```
+4. **Run the development server**
+   ```sh
+   npm run dev  
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
